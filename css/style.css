@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 350px;
+    background-color: antiquewhite;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+}
+.input-box{
+    height: 30px;
+    width: 250px;
+}
+.sub-div{
+    margin-top: 50px;
+}
