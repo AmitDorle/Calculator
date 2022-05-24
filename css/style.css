@@ -6,16 +6,23 @@
     display: flex;
     justify-content: center;
     height: 500px;
-    width: 350px;
+    width: 340px;
     background-color: antiquewhite;
+    border-radius: 35px;
 }
 .btn{
+    font-size: 30px;
     width: 150px;
     height: 40px;
+    border-radius: 15px;
+    border: 2px solid green;
 }
 .input-box{
+    font-size: 20px;
     height: 30px;
     width: 250px;
+    border-radius: 10px;
+    border: 2px solid navy;
 }
 .sub-div{
     margin-top: 50px;
