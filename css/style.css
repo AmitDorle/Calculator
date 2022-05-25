@@ -12,11 +12,12 @@
 .main-div{
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 480px;
     width: 340px;
     background-color: antiquewhite;
     border-radius: 35px;
 }
+
 .btn{
     font-size: 30px;
     width: 150px;
@@ -33,4 +34,15 @@
 }
 .sub-div{
     margin-top: 50px;
+}
+.output{
+    margin-top: 30px;
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+    color: rgb(57, 14, 251);
+    font-size: 20px;
+    background-color: azure;
+    border: 2px solid red;
 }
