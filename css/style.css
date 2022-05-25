@@ -46,3 +46,32 @@
     background-color: azure;
     border: 2px solid red;
 }
+.btn-container{
+    text-align: center;
+    margin-top: 10px;
+}
+.mode-btn{
+    font-size: 30px;
+    width: 160px;
+    height: 44px;
+    padding: 3px;
+}
+.light
+{
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    width: 340px;
+    background-color: antiquewhite;
+    border-radius: 35px;
+}
+.dark
+{
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    width: 340px;
+    background-color: rgb(14, 14, 14);
+    border-radius: 35px;
+    color: white;
+}

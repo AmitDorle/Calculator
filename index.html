@@ -48,6 +48,14 @@
 
             document.getElementById("ans").innerHTML = "Division of " + val1 + " and " + val2 + " is " + div;
         }
+        function dark()
+        {
+            document.getElementById('mode').className='dark'
+        }
+        function light()
+        {
+            document.getElementById('mode').className='light'
+        }
     </script>
 
 </head>
@@ -57,7 +65,7 @@
         <h1>CALCULATOR</h1>
     </div>
     <div class="container">
-        <div class="main-div">
+        <div class="main-div" id="mode">
             <div class="sub-div">
                 <b>Val1:</b><input type="text" class="input-box" id="input-value1" /><br><br>
                 <b>Val2:</b><input type="text" class="input-box" id="input-value2" /><br><br><br><br>
@@ -69,7 +77,11 @@
                 <div id="ans" class="output" ></div>
             </div>
         </div>
-    </div><br>
+    </div>
+    <div class="btn-container">
+        <button class="mode-btn" onclick="dark()">Dark</button>
+        <button class="mode-btn" onclick="light()">Light</button>
+    </div>
 
 
 
