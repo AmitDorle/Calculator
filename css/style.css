@@ -15,7 +15,7 @@
     justify-content: center;
     height: 480px;
     width: 340px;
-    background-color: antiquewhite;
+    background-color:aliceblue;
     background-image: url('./img/giphy.gif');
     border-radius: 35px;
     box-shadow: 0px 0px 5px honeydew;
@@ -88,7 +88,7 @@
     justify-content: center;
     height: 480px;
     width: 340px;
-    background-color: antiquewhite;
+    background-color:aliceblue;
     border-radius: 35px;
 }
 .dark
