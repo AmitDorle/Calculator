@@ -1,10 +1,10 @@
 .title-container{
-    background-color:rgb(148, 152, 148);
+    background-color:rgb(239, 185, 51);
     text-decoration:dashed;
     text-align: center;
     border-radius: 15px;
-    box-shadow: 3px 3px 5px whitesmoke;
-    color:floralwhite;
+    box-shadow: 3px 3px 5px rgb(44, 213, 193);
+    color:rgb(255, 255, 255);
 }
 .container{
     display: flex;
